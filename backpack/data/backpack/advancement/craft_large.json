@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "crafted_large": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "backpack:large_backpack"
+      }
+    }
+  },
+  "rewards": {
+    "function": "backpack:events/on_craft_large"
+  }
+}

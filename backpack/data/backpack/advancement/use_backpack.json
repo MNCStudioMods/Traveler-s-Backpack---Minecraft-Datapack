@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "use_backpack": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:carrot_on_a_stick"],
+          "predicates": {
+            "minecraft:custom_data": {
+              "backpack": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "backpack:events/on_use"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "IBI",
+    " C "
+  ],
+  "key": {
+    "C": "minecraft:chest",
+    "I": "minecraft:iron_ingot",
+    "B": {
+      "item": "minecraft:carrot_on_a_stick",
+      "components": {
+        "minecraft:custom_data": {
+          "backpack": {"tier": 1}
+        }
+      }
+    }
+  },
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Traveler's Backpack+",
+        "color": "light_purple",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {"text": "Portable Storage", "color": "gray", "italic": false},
+        {"text": "Capacity: 54 Slots", "color": "dark_gray", "italic": false},
+        {"text": "Right-click to open | Sneak+Use to flip page", "color": "dark_gray", "italic": true}
+      ],
+      "minecraft:custom_model_data": {"floats": [100002]},
+      "minecraft:custom_data": {
+        "backpack": {"tier": 2, "owner_pid": 0, "version": 1}
+      },
+      "minecraft:unbreakable": {},
+      "minecraft:hide_additional_tooltip": {}
+    }
+  }
+}

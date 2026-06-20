@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "crafted_small": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "backpack:small_backpack"
+      }
+    }
+  },
+  "rewards": {
+    "function": "backpack:events/on_craft_small"
+  }
+}
