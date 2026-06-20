@@ -1,0 +1,14 @@
+{
+  "values": [
+    {
+      "id": "minecraft:carrot_on_a_stick",
+      "components": {
+        "minecraft:custom_data": {
+          "backpack": {
+            "tier": 2
+          }
+        }
+      }
+    }
+  ]
+}

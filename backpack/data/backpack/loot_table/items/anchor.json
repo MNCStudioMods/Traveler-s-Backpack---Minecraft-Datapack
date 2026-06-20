@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrier",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Backpack Space",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Reserved by Large Backpack",
+                    "color": "dark_gray",
+                    "italic": true
+                  }
+                ],
+                "minecraft:item_model": "minecraft:empty",
+                "minecraft:custom_data": {
+                  "backpack": {
+                    "anchor": 1,
+                    "owner_pid": 0,
+                    "version": 1
+                  }
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

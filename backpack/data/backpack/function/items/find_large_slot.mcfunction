@@ -1,0 +1,39 @@
+# Find first large backpack slot -> score @s backpack.temp (0-35), or -1 if none
+scoreboard players set @s backpack.temp -1
+
+execute if items entity @s hotbar.0[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 0
+execute if items entity @s hotbar.1[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 1
+execute if items entity @s hotbar.2[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 2
+execute if items entity @s hotbar.3[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 3
+execute if items entity @s hotbar.4[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 4
+execute if items entity @s hotbar.5[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 5
+execute if items entity @s hotbar.6[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 6
+execute if items entity @s hotbar.7[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 7
+execute if items entity @s hotbar.8[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 8
+execute if items entity @s inventory.9[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 9
+execute if items entity @s inventory.10[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 10
+execute if items entity @s inventory.11[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 11
+execute if items entity @s inventory.12[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 12
+execute if items entity @s inventory.13[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 13
+execute if items entity @s inventory.14[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 14
+execute if items entity @s inventory.15[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 15
+execute if items entity @s inventory.16[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 16
+execute if items entity @s inventory.17[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 17
+execute if items entity @s inventory.18[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 18
+execute if items entity @s inventory.19[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 19
+execute if items entity @s inventory.20[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 20
+execute if items entity @s inventory.21[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 21
+execute if items entity @s inventory.22[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 22
+execute if items entity @s inventory.23[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 23
+execute if items entity @s inventory.24[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 24
+execute if items entity @s inventory.25[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 25
+execute if items entity @s inventory.26[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 26
+execute if items entity @s inventory.27[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 27
+execute if items entity @s inventory.28[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 28
+execute if items entity @s inventory.29[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 29
+execute if items entity @s inventory.30[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 30
+execute if items entity @s inventory.31[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 31
+execute if items entity @s inventory.32[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 32
+execute if items entity @s inventory.33[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 33
+execute if items entity @s inventory.34[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 34
+execute if items entity @s inventory.35[custom_data~{backpack:{tier:2}}] run scoreboard players set @s backpack.temp 35

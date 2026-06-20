@@ -5,7 +5,7 @@ A production-ready Minecraft Java Edition datapack for **1.21.x** that adds port
 ## Features
 
 - **Small Backpack** — 27 slots (1 chest)
-- **Large Backpack** — 54 slots (2 chests) with paginated UI
+- **Large Backpack** — 54 slots (2 chests), uses **2 inventory slots** with paginated UI
 - **Personal storage** — only the owner can access their backpack
 - **Persistent** — contents survive relogs, restarts, and world saves
 - **Multiplayer-safe** — per-player storage with duplication protection
@@ -69,7 +69,25 @@ IBI
 
 Upgrading preserves all stored items automatically.
 
-## Admin Commands
+**Note:** The Large Backpack occupies **2 horizontal inventory slots**. A reserved placeholder appears in the slot beside it and cannot be removed while you carry the backpack.
+
+### Creative Mode (no crafting needed)
+
+In **Creative mode**, backpacks are **automatically added to your inventory** when you join or switch to Creative.
+
+You can also get more anytime (no operator permission required):
+
+```
+/function backpack:creative/give_small
+/function backpack:creative/give_large
+/function backpack:creative/give_all
+```
+
+Or open the **Recipe Book** (in inventory) and click the backpack recipe result to get copies.
+
+### Survival
+
+Recipes appear in the **Recipe Book** once you have the ingredients (leather + chest for small, then small backpack for large).
 
 Requires operator permission level 2+.
 
@@ -82,6 +100,14 @@ Requires operator permission level 2+.
 | `/function backpack:admin/inspect` | Inspect your backpack storage |
 | `/function backpack:admin/reload` | Reload the datapack |
 | `/function backpack:admin/version` | Display version information |
+
+### Creative Commands (no operator required)
+
+| Command | Description |
+|---------|-------------|
+| `/function backpack:creative/give_small` | Get a Small Backpack (Creative only) |
+| `/function backpack:creative/give_large` | Get a Large Backpack (Creative only) |
+| `/function backpack:creative/give_all` | Get both backpacks (Creative only) |
 
 ## Configuration
 

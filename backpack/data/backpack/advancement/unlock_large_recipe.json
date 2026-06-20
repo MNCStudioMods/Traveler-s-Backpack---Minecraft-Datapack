@@ -1,0 +1,25 @@
+{
+  "parent": "backpack:unlock_small_recipe",
+  "criteria": {
+    "has_small": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:carrot_on_a_stick"],
+            "predicates": {
+              "minecraft:custom_data": {
+                "backpack": {"tier": 1}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "backpack:large_backpack"
+    ]
+  }
+}

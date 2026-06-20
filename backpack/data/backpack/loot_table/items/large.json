@@ -10,40 +10,30 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:item_name": {
+                  "text": "Traveler's Backpack+",
+                  "color": "light_purple",
+                  "italic": false
+                },
                 "minecraft:custom_name": {
                   "text": "Traveler's Backpack+",
                   "color": "light_purple",
                   "italic": false
                 },
                 "minecraft:lore": [
-                  {
-                    "text": "Portable Storage",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "text": "Capacity: 54 Slots",
-                    "color": "dark_gray",
-                    "italic": false
-                  },
-                  {
-                    "text": "Right-click to open | Sneak+Use to flip page",
-                    "color": "dark_gray",
-                    "italic": true
-                  }
+                  {"text": "Portable Storage", "color": "gray", "italic": false},
+                  {"text": "Capacity: 54 Slots", "color": "dark_gray", "italic": false},
+                  {"text": "Takes 2 Inventory Slots", "color": "dark_gray", "italic": false},
+                  {"text": "Right-click to open | Sneak+Use to flip page", "color": "dark_gray", "italic": true}
                 ],
-                "minecraft:custom_model_data": {
-                  "floats": [100002]
-                },
+                "minecraft:item_model": "backpack:large_backpack",
+                "minecraft:custom_model_data": {"floats": [100002]},
                 "minecraft:custom_data": {
-                  "backpack": {
-                    "tier": 2,
-                    "owner_pid": 0,
-                    "version": 1
-                  }
+                  "backpack": {"tier": 2, "owner_pid": 0, "version": 1}
                 },
                 "minecraft:unbreakable": {},
-                "minecraft:hide_additional_tooltip": {}
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:enchantment_glint_override": true
               }
             }
           ]
