@@ -69,6 +69,8 @@ IBI
 
 Upgrading preserves all stored items automatically.
 
+**Note:** The Large Backpack occupies **2 horizontal inventory slots**. A reserved placeholder appears in the slot beside it and cannot be removed while you carry the backpack.
+
 ### Creative Mode (no crafting needed)
 
 In **Creative mode**, backpacks are **automatically added to your inventory** when you join or switch to Creative.
