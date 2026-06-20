@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/carrot_on_a_stick"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 100001
+      },
+      "model": "minecraft:item/backpack_small"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100002
+      },
+      "model": "minecraft:item/backpack_large"
+    }
+  ]
+}

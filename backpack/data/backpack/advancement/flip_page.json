@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "flip": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "backpack:viewing_backpack"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sneaking": true
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": ["minecraft:carrot_on_a_stick"],
+          "predicates": {
+            "minecraft:custom_data": {
+              "backpack": {"tier": 2}
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "backpack:open/flip_page"
+  }
+}

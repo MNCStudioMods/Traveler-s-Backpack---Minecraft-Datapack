@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "LCL",
+    "LLL"
+  ],
+  "key": {
+    "S": "minecraft:string",
+    "C": "minecraft:chest",
+    "L": "minecraft:leather"
+  },
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Traveler's Backpack",
+        "color": "gold",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {"text": "Portable Storage", "color": "gray", "italic": false},
+        {"text": "Capacity: 27 Slots", "color": "dark_gray", "italic": false},
+        {"text": "Right-click to open", "color": "dark_gray", "italic": true}
+      ],
+      "minecraft:custom_model_data": {"floats": [100001]},
+      "minecraft:custom_data": {
+        "backpack": {"tier": 1, "owner_pid": 0, "version": 1}
+      },
+      "minecraft:unbreakable": {},
+      "minecraft:hide_additional_tooltip": {}
+    }
+  }
+}
