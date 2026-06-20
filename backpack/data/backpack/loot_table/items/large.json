@@ -23,6 +23,7 @@
                 "minecraft:lore": [
                   {"text": "Portable Storage", "color": "gray", "italic": false},
                   {"text": "Capacity: 54 Slots", "color": "dark_gray", "italic": false},
+                  {"text": "Takes 2 Inventory Slots", "color": "dark_gray", "italic": false},
                   {"text": "Right-click to open | Sneak+Use to flip page", "color": "dark_gray", "italic": true}
                 ],
                 "minecraft:item_model": "backpack:large_backpack",

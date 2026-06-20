@@ -8,5 +8,6 @@ execute store result storage backpack:temp pid int 1 run scoreboard players get 
 $data storage backpack:temp pid
 data modify storage backpack:data players.Slot$(pid).tier set value "large"
 function backpack:open/ensure_capacity with storage backpack:temp
+function backpack:items/place_anchor
 
-tellraw @s [{"text":"[Backpack] ","color":"gold"},{"text":"Upgraded to Traveler's Backpack+! All items preserved.","color":"light_purple"}]
+tellraw @s [{"text":"[Backpack] ","color":"gold"},{"text":"Upgraded to Traveler's Backpack+! All items preserved.","color":"light_purple"},{"text":" (Uses 2 inventory slots)","color":"gray"}]

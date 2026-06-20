@@ -5,7 +5,7 @@ A production-ready Minecraft Java Edition datapack for **1.21.x** that adds port
 ## Features
 
 - **Small Backpack** — 27 slots (1 chest)
-- **Large Backpack** — 54 slots (2 chests) with paginated UI
+- **Large Backpack** — 54 slots (2 chests), uses **2 inventory slots** with paginated UI
 - **Personal storage** — only the owner can access their backpack
 - **Persistent** — contents survive relogs, restarts, and world saves
 - **Multiplayer-safe** — per-player storage with duplication protection
