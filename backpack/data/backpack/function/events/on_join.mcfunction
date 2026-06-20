@@ -12,3 +12,6 @@ advancement revoke @s only backpack:flip_page
 
 # Restore backpack on respawn if configured
 function backpack:events/on_respawn
+
+# Unlock recipes and set up creative access
+function backpack:events/unlock_recipes
